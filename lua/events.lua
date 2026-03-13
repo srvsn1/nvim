@@ -3,7 +3,8 @@ vim.api.nvim_create_augroup("PersonalEventGroup", { clear = true })
 -- Event groups - each represents a plugin/feature with Pre/Post events
 local Event = {
     Oil = "Oil",
-    Mini = "Mini" 
+    Mini = "Mini",
+    Telescope = "Telescope"
 }
 
 -- Helper functions to generate Pre/Post event names

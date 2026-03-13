@@ -8,3 +8,7 @@ end)
 events.ScheduledWrapEvent(events.Event.Mini, function()
     require('cfg.mini')
 end)
+
+events.ScheduledWrapEvent(events.Event.Telescope, function()
+    require('cfg.telescope')
+end)
