@@ -1,0 +1,22 @@
+vim.g.mapleader = ' '
+vim.g.mouse = 'a'
+vim.g.mousefocus = true
+vim.g.winborder = 'rounded'
+
+vim.opt.number = true
+vim.opt.relativenumber = true
+vim.opt.tabstop = 4
+vim.opt.shiftwidth = 4
+vim.opt.wrap = false
+vim.opt.swapfile = false
+vim.opt.expandtab = true
+vim.opt.cursorline = true
+vim.opt.fillchars = 'eob: '
+vim.opt.foldmethod = "expr"
+vim.opt.foldexpr = "nvim_treesitter#foldexpr()"
+vim.opt.foldenable = false
+vim.opt.foldlevel = 99
+vim.opt.foldlevelstart = 99
+vim.opt.signcolumn = "yes"
+vim.opt.termguicolors = true
+vim.opt.autoread = true
