@@ -5,7 +5,9 @@ local Event = {
     Oil = "Oil",
     Mini = "Mini",
     Telescope = "Telescope",
-    Git = "Git"
+    Git = "Git",
+    Lsp = "Lsp",
+    Cmp = "Cmp"
 }
 
 -- Helper functions to generate Pre/Post event names

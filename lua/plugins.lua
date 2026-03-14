@@ -17,4 +17,12 @@ vim.pack.add({
     { src = url('echasnovski/mini.surround') },
     { src = url('echasnovski/mini.move') },
     { src = url('echasnovski/mini.trailspace') },
+    { src = url('hrsh7th/nvim-cmp') },
+    { src = url('L3MON4D3/LuaSnip') },
+    { src = url('hrsh7th/cmp-nvim-lsp') },
+    { src = url('hrsh7th/cmp-buffer') },
+    { src = url('hrsh7th/cmp-path') },
+    { src = url('hrsh7th/cmp-cmdline') },
+    { src = url('saadparwaiz1/cmp_luasnip') }
+
 })

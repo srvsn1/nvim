@@ -16,3 +16,12 @@ end)
 events.ScheduledWrapEvent(events.Event.Git, function()
     require('cfg.gitsigns')
 end)
+
+events.ScheduledWrapEvent(events.Event.Lsp, function()
+    require('lsp')
+end)
+
+events.ScheduledWrapEvent(events.Event.Cmp, function()
+    require('cfg.cmp')
+end)
+
