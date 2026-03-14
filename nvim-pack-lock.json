@@ -4,9 +4,37 @@
       "rev": "7c4faa3540d0781a28588cafbd4dd187a28ac6e3",
       "src": "https://github.com/lewis6991/gitsigns.nvim"
     },
+    "mini.comment": {
+      "rev": "597d32ed2c9fbfbf9a250bec7c6b9035f71214f5",
+      "src": "https://github.com/echasnovski/mini.comment"
+    },
+    "mini.hipatterns": {
+      "rev": "2c5dce6dc7443de814d16f7470549811ee86e664",
+      "src": "https://github.com/echasnovski/mini.hipatterns"
+    },
     "mini.icons": {
       "rev": "5b9076dae1bfbe47ba4a14bc8b967cde0ab5d77e",
-      "src": "https://github.com/nvim-mini/mini.icons"
+      "src": "https://github.com/echasnovski/mini.icons"
+    },
+    "mini.move": {
+      "rev": "b8ba0b77e91b5f0fe8e014e03f7f59799dec1d96",
+      "src": "https://github.com/echasnovski/mini.move"
+    },
+    "mini.pairs": {
+      "rev": "b7fde3719340946feb75017ef9d75edebdeb0566",
+      "src": "https://github.com/echasnovski/mini.pairs"
+    },
+    "mini.statusline": {
+      "rev": "8c3829d4ef02b693f68e43fc131b433f11049b2b",
+      "src": "https://github.com/echasnovski/mini.statusline"
+    },
+    "mini.surround": {
+      "rev": "d205d1741d1fcc1f3117b4e839bf00f74ad72fa2",
+      "src": "https://github.com/echasnovski/mini.surround"
+    },
+    "mini.trailspace": {
+      "rev": "27acb69562a4742256ab3e4b0127391fcb49dbb3",
+      "src": "https://github.com/echasnovski/mini.trailspace"
     },
     "nvim": {
       "rev": "384f304c8b04664c9e0091fbfb3923c5f97c1bcf",

@@ -6,8 +6,15 @@ vim.pack.add({
     { src = url('catppuccin/nvim') },
     { src = url('stevearc/oil.nvim') }, -- uses mini.icons
     { src = url('folke/which-key.nvim') },
-    { src = url('nvim-mini/mini.icons') },
     { src = url('nvim-telescope/telescope.nvim'), version = '0.1.8' }, -- uses plenary.nvim
     { src = url('nvim-lua/plenary.nvim') },
     { src = url('lewis6991/gitsigns.nvim') },
+    { src = url('echasnovski/mini.hipatterns') },
+    { src = url('echasnovski/mini.icons') },
+    { src = url('echasnovski/mini.comment') },
+    { src = url('echasnovski/mini.pairs') },
+    { src = url('echasnovski/mini.statusline') },
+    { src = url('echasnovski/mini.surround') },
+    { src = url('echasnovski/mini.move') },
+    { src = url('echasnovski/mini.trailspace') },
 })
