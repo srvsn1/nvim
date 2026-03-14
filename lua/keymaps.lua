@@ -31,4 +31,3 @@ events.RegisterPostEvent(events.Event.Telescope, function()
     })
 end)
 
-

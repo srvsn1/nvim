@@ -9,4 +9,5 @@ vim.pack.add({
     { src = url('nvim-mini/mini.icons') },
     { src = url('nvim-telescope/telescope.nvim'), version = '0.1.8' }, -- uses plenary.nvim
     { src = url('nvim-lua/plenary.nvim') },
+    { src = url('lewis6991/gitsigns.nvim') },
 })

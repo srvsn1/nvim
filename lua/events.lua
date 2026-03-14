@@ -4,7 +4,8 @@ vim.api.nvim_create_augroup("PersonalEventGroup", { clear = true })
 local Event = {
     Oil = "Oil",
     Mini = "Mini",
-    Telescope = "Telescope"
+    Telescope = "Telescope",
+    Git = "Git"
 }
 
 -- Helper functions to generate Pre/Post event names

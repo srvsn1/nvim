@@ -12,3 +12,7 @@ end)
 events.ScheduledWrapEvent(events.Event.Telescope, function()
     require('cfg.telescope')
 end)
+
+events.ScheduledWrapEvent(events.Event.Git, function()
+    require('cfg.gitsigns')
+end)
