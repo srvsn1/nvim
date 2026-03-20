@@ -53,7 +53,12 @@ require("catppuccin").setup({
             background = true,
         },
     },
-    color_overrides = {},
+    color_overrides = {
+        mocha = {
+            base = "#0f0f0f",
+            mantle = "#0f0f0f",
+        }
+    },
     custom_highlights = {},
     default_integrations = true,
     auto_integrations = false,
@@ -66,6 +71,7 @@ require("catppuccin").setup({
             enabled = true,
             indentscope_color = "",
         },
+        telescope = true,
         -- For more plugins integrations please scroll down (https://github.com/catppuccin/nvim#integrations)
     },
 })

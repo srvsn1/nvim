@@ -4,6 +4,9 @@ end
 
 vim.pack.add({
     { src = url('catppuccin/nvim') },
+    { src = url('rose-pine/neovim') },
+    { src = url('folke/tokyonight.nvim') },
+    { src = url('rebelot/kanagawa.nvim') },
     { src = url('stevearc/oil.nvim') }, -- uses mini.icons
     { src = url('folke/which-key.nvim') },
     { src = url('nvim-telescope/telescope.nvim'), version = '0.1.8' }, -- uses plenary.nvim
@@ -23,6 +26,8 @@ vim.pack.add({
     { src = url('hrsh7th/cmp-buffer') },
     { src = url('hrsh7th/cmp-path') },
     { src = url('hrsh7th/cmp-cmdline') },
-    { src = url('saadparwaiz1/cmp_luasnip') }
-
+    { src = url('saadparwaiz1/cmp_luasnip') },
+    { src = url('zbirenbaum/copilot.lua') },
+    { src = url('copilotlsp-nvim/copilot-lsp') },
+    { src = url('CopilotC-Nvim/CopilotChat.nvim') },
 })
