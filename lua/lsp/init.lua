@@ -10,7 +10,7 @@
 require("languages")
 
 -- Enable configured language servers
-vim.lsp.enable({ "lua_ls", "rust-analyzer", "taplo" })
+vim.lsp.enable({ "lua_ls", "rust-analyzer", "taplo", "jdtls" })
 
 -- LSP UI Configuration
 vim.diagnostic.config({

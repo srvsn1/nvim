@@ -20,3 +20,4 @@ vim.opt.foldlevelstart = 99
 vim.opt.signcolumn = "yes"
 vim.opt.termguicolors = true
 vim.opt.autoread = true
+vim.opt.exrc = true

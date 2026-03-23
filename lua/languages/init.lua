@@ -11,6 +11,7 @@ local languages = {
   'languages.rust',  -- Rust support (rust-analyzer)
   'languages.lua',   -- Lua support (lua_ls) - for Neovim config editing
   'languages.toml',  -- TOML support (taplo) - for Cargo.toml, config files
+  'languages.java',  -- Java support (jdtls) - eclipse.jdt.ls
   -- Add more languages here:
   -- 'languages.python',
   -- 'languages.typescript',
